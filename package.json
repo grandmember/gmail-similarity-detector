@@ -1,0 +1,38 @@
+{
+  "name": "gmail-similarity-detector",
+  "version": "1.0.0",
+  "description": "A package to detect similar Gmail addresses based on Gmail's unique addressing rules.",
+  "main": "src/gmail-similarity-detector.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/gmail-similarity-detector.ts",
+    "test": "ts-node src/gmail-similarity-detector.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grandmember/gmail-similarity-detector.git"
+  },
+  "keywords": [
+    "gmail",
+    "deduplication",
+    "email",
+    "unique",
+    "validator",
+    "checker",
+    "similarity"
+  ],
+  "author": "Mertalp Ulus <mertalp.ulus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grandmember/gmail-similarity-detector/issues"
+  },
+  "homepage": "https://github.com/grandmember/gmail-similarity-detector#readme",
+  "dependencies": {
+    "typescript": "^4.9.5",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.23",
+    "ts-node": "^10.9.1"
+  }
+}
